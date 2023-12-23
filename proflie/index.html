@@ -1,0 +1,412 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<title>My Portfolio</title> 
+	<link rel="stylesheet"
+		href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"integrity= "sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+	<link rel="stylesheet" href="style.css"> 
+	<link rel="stylesheet" href="responsive.css"> 
+    <style>
+        .download-button{
+            text-decoration: none;
+            color: green;
+        }
+    </style>
+</head> 
+
+<body> 
+	<!-- Navbar header section -->
+	<header class="header"> 
+		<nav class="navbar"> 
+			<div class="logo"> 
+				<h2 class="logo-heading">Dharaneesh P</h2> 
+			</div> 
+			<div class="hamburger" id="hamburger"> 
+				<i class="fas fa-bars hamburger-icon"></i> 
+				<i class="fas fa-times cross-icon"></i> 
+			</div> 
+			<div class="menu"> 
+				<ul class="menu-list"> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#home"> 
+							Home 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#portfolio"> 
+							Portfolio 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#about"> 
+							About 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#services"> 
+							Services 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#contact"> 
+							Contact Me 
+						</a> 
+					</li> 
+				</ul> 
+			</div> 
+		</nav> 
+	</header> 
+
+	<!-- Main hero banner -->
+	<section id="home" class="hero"> 
+		<div class="intro"> 
+            <div class="image-container">
+                <img src="./image/download.jpeg" alt="Your Image" class="profile-image">
+              </div>
+			<div class="headings"> 
+				<h3 class="greet-heading">Hello, I'm</h3> 
+				<h1 class="my-heading">Dharaneesh</h1> 
+				<h4 class="sub-heading"> 
+					A Web Developer 
+				</h4> 
+			</div> 
+			<div class="intro-buttons"> 
+				<button class="btn common-btn">Hire Me</button> 
+				<button class="btn ghost-btn"><a href="English..pdf" download="YourResume.pdf" class="download-button"> GET Resume</a></button> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Portfolio Section -->
+	<section class="portfolio" id="portfolio"> 
+		<div class="portfolio-heading"> 
+			<h1 class="my-heading text-center">Featured Portfolio</h1> 
+		</div> 
+		<div class="portfolio-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./image/p1.jpeg"
+								alt="Web Design Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text">Employee PayRoll</h3> 
+						<p class="small-para blue-text"><a href="https://github.com/Dharaneeshponnuvel/Employe-payroll-Full-code">See it</a></p>
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./image/Screenshot (35).png"
+								alt="Web Development Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Dices Game 
+						</h3> 
+						<p class="small-para blue-text"><a href="https://github.com/Dharaneeshponnuvel/Dicee-game">See it</a></p>
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 		
+						</div> 
+                        <section id="skills" class="section">
+                            <h2>Skills</h2>
+                          <div class="skills-list">
+                            <div class="skill">
+                              <h3>HTML5</h3>
+                               <div class="progress">
+                                <div class="progress-bar" style="width: 90%;"></div>
+                                </div>
+                               </div>
+                             <div class="skill">
+                              <h3>CSS3</h3>
+                                 <div class="progress">
+                                  <div class="progress-bar" style="width: 70%;"></div>
+                                 </div>
+                                 </div>
+                             <div class="skill">
+                              <h3>JavaScript</h3>
+                             <div class="progress">
+                             <div class="progress-bar" style="width: 50%;"></div>
+                               </div>
+                              </div>
+    
+                             </div>
+                      </section>
+						
+					</div> 
+				</div> 
+			</div> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./image/Screenshot (36).png"
+								alt="Content Writting Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Simon Game  
+						</h3> 
+						<p class="small-para blue-text"><a href="https://github.com/Dharaneeshponnuvel/Simon-Game">See it</a></p>
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./image/OIP.jpeg"
+								alt="Wordpress Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Drum Kit
+						</h3> 
+						<p class="small-para blue-text"> 
+							<a href="https://github.com/Dharaneeshponnuvel/drum-kit">See it</a>
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="./image/Screenshot (30).png"
+								alt="Video Editing Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Docker File 
+						</h3> 
+						<p class="small-para blue-text"><a href="https://github.com/Dharaneeshponnuvel/DockerFile-Sample">See it</a></p> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- About Section -->
+	<section id="about" class="about"> 
+		<div class="about-text"> 
+			<h1 class="my-heading">About Me</h1> 
+			<p class="lead-para"> 
+				I am Dharaneesh from VIT-AP, Amaravati. I am pursuing 2nd year Integrated MTech Software Engineering (5 years). I am learning Web Development in Udemy. I know some Programming languages like Python, Java, SQL, JavaFX. I have also done a project on Employee Pay Roll.
+			</p> 
+			
+		</div> 
+		<div class="about-image"> 
+			<img src="./image/browserpreview_tmp-3.gif" alt="About Image"> 
+		</div> 
+	</section> 
+
+	<!-- Services Section -->
+	<section class="services" id="services"> 
+		<div class="services-heading"> 
+			<h1 class="my-heading text-center">My Services</h1> 
+		</div> 
+		<div class="services-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-paint-brush"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text">Employee PayRoll</h3> 
+						<p class="small-para"> 
+							Employee Profiles: The system maintains employee details such as name, address, contact information, designation, and department.
+                            Salary Details: Tracks basic salary, allowances, overtime, bonuses, deductions, and other financial components. 
+						</p> 
+						<p class="small-para"> 
+							Frontend: HTML, CSS, JavaScript, possibly using frameworks like React, Vue.js, or Angular.
+                         Backend: Technologies like Node.js, Python (Django/Flask), Java (Spring), or PHP to manage the server-side operations and database interactions.
+                         Database: MySQL, PostgreSQL, MongoDB, or other databases to store employee and payroll-related data
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fa-solid fa-code"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Web Development 
+						</h3> 
+						<p class="small-para"> 
+							Web development refers to the creating, 
+							building, and maintaining 
+							of websites. It includes aspects such as 
+							web design, web publishing, 
+							web programming, and database management. 
+							It is the creation of an 
+							application that works over the internet 
+							i.e. websites. 
+						</p> 
+						<p class="small-para"> 
+                            Web development is a dynamic field with ever-evolving technologies and trends. Developers constantly learn new tools and frameworks to stay updated with the latest industry standards and best practices.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-chart-line"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text">Skills</h3> 
+						<p class="small-para"> 
+							I have Learing Web development in Udemy. I have good idea about the html,css,JavaScript. i Have leared many computer languages like(python,java,javafx,sql).
+						</p> 
+						<p class="small-para"> 
+							Now i am learing how to content backend and Frontend using php and mysql , and Nodejs also so i will imporve my skills faster.
+						</p> 
+					</div> 
+				</div> 
+			</div> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-quote-left"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Simon-Game
+						</h3> 
+						<p class="small-para"> 
+							The game is created my html,css,JavaScript. The user need to start the game he need to press any key from keyboard adter that he need to find the crect color if he find he will go to 2ndlevel or he need to play again
+						</p> 
+						<p class="small-para"> 
+							it is good game i created for testing my JavaScript nolage. it will chage randomly when the round chages.
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fab fa-wordpress-simple"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Drum Kit 
+						</h3> 
+						<p class="small-para"> 
+                            The game is created my html,css,JavaScript. when the user press the button it will make a sound.
+
+						</p> 
+						<p class="small-para"> 
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-video"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Docker File 
+						</h3> 
+						<p class="small-para"> 
+                            A Dockerfile is a text file that contains instructions for building a Docker image. Docker is a platform designed to make it easier to create, deploy, and run applications using containers. A Docker container is a lightweight, standalone, executable package that includes everything needed to run a piece of software, including the code, runtime, system tools, system libraries, and settings. 
+
+						</p> 
+						<p class="small-para"> 
+                            The Dockerfile serves as a set of instructions for Docker to automatically create a Docker image, which is a read-only template used to create Docker containers. It defines the steps needed to assemble the container environment and configure it with the necessary dependencies and settings. 
+
+						</p> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Contact me section -->
+	<section class="contact" id="contact"> 
+		<div class="contact-heading"> 
+			<h1 class="my-heading text-center">Contact Me</h1> 
+		</div> 
+		<div class="contact-content"> 
+			<div class="contact-form-container"> 
+				<h1 class="greet-heading">Get In Touch</h1> 
+				<form class="contact-form"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Name"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Email"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Phone"> 
+					<textarea class="form-controls"
+							placeholder="Write your message"
+							name="message" id="" cols="30"
+							rows="10"> 
+					</textarea> 
+					<input class="form-btn btn common-btn"
+						type="submit" value="Send Message"> 
+				</form> 
+			</div> 
+			<div class="contact-details"> 
+				<h1 class="greet-heading">My Contact Details</h1> 
+				<div class="details"> 
+					<h5 class="contact-heading">EMAIL</h5> 
+					<p class="contact-text">dharaneeshp56@gmail.com</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-heading">PHONE</h5> 
+					<p class="contact-text">+91 6379709001</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-heading">FAX</h5> 
+					<p class="contact-text">+91 9442397700</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-heading">ADDRESS</h5> 
+					<p class="contact-text">1427/ nort street</p> 
+					<p>trichy,tamilnadu-621006</p> 
+					<p>India</p> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Footer section -->
+	<footer class="footer"> 
+		<div class="footer-content text-center"> 
+			<h4> 
+				Copyright © 2023 All rights reserved | 
+				By Dharaneesh 
+			</h4> 
+			<div class="social-links"> 
+				<div class="footer-menu"> 
+					<ul class="footer-menu-list"> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-facebook-f"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-twitter"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-instagram"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="#"> 
+								<i class="fab fa-linkedin-in"></i> 
+							</a> 
+						</li> 
+					</ul> 
+				</div> 
+			</div> 
+		</div> 
+	</footer> 
+
+	<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+		integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"> 
+	</script> 
+	<script src="script.js"></script> 
+</body> 
+
+</html>
